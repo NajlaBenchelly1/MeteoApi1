@@ -31,7 +31,7 @@ $(document).ready(function () {
 function show(data) { // renvoi données de l'api cx
     return "<h3 style='font-size:40px; font-weight: bold;' class='text-center;'>La température pour  " + data.name + ", " + data.sys.country + "</h3>" +
 
-        "<h3 style='padding-left:40px;'><strong> Temps Actuel </strong> :  <img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png' >" + data.weather[0].description + "</h3>" + //icone correspondance
+        "<h3 style='padding-left:40px;'><strong> Temps actuel </strong> :  <img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png' >" + data.weather[0].description + "</h3>" + //icone correspondance
 
         "<h3 style='padding-left:40px;'><strong> Température </strong> : " + data.main.temp + "&deg;C</h3>" + 
 
