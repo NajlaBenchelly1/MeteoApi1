@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html lang="Fr">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>La météo </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    
+    
+    <div class="jumbotron" style="margin-bottom:0px; color:white; background-color: #4aalf3;">
+        
+        <h2 class="text-center" style="font-size:50px; font-weight:600;">LES PRÉVISIONS MÉTÉO EN TEMPS RÉEL</h2>
+    </div>
+ <br>
+<br>
+    <div class="container">
+        
+        <div class="row" style="margin-bottom:20px;">
+
+
+         
+            
+    <h3 class="text-center text-primary"> </h3>
+            
+            <span id="error"></span>
+
+
+        </div>
+        
+        
+        <div class="row form-group form-inline" id="rowDiv">
+            
+
+            <input type="text" name="city" id="city" class="form-control" placeholder=" Tapez le nom de la ville ">
+            
+
+            <button id="submitWeather" class=" btn btn-primary"> Recherche </button>
+
+        </div>
+
+    </div>
+    <br>
+    
+    
+    
+    <br>
+    
+    
+        <div id="show"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<b>
+    </b>
+    <script src="weather.js"></script>
+</body>
+
+</html>
